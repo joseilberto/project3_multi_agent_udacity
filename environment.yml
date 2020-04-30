@@ -1,0 +1,19 @@
+name: dlrnd
+channels:
+ - defaults
+ - pytorch
+dependencies:
+ - python=3.6.3
+ - pytorch=0.4.0
+ - swig=3.0.12
+ - jupyter
+ - pip 
+ - pip:
+   - tensorflow==1.7.1
+   - Cython
+   - pyglet==1.5.0
+   - gym==0.9.6
+   - gym[classic-controls]   
+   - gym[box2d]
+   - .\python
+ 
